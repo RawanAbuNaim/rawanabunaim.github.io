@@ -28,9 +28,13 @@ export default function App() {
                 <Linkedin size={20} />
               </a>
             </div>
-            <button className="gold-gradient-bg text-white px-6 py-2.5 rounded-full font-semibold hover:opacity-90 transition-all duration-300 active:scale-95 text-sm whitespace-nowrap shadow-md">
+            <a 
+              href="#" 
+              download 
+              className="gold-gradient-bg text-white px-6 py-2.5 rounded-full font-semibold hover:opacity-90 transition-all duration-300 active:scale-95 text-sm whitespace-nowrap shadow-md inline-block"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
       </nav>
